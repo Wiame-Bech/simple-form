@@ -1,0 +1,80 @@
+.html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: sans-serif;
+backdrop-filter: blur(2rem);
+}
+.card{
+    align-items: center;
+   margin: 30rem;
+   padding: 30px;
+   border-radius: 20px;
+   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.336);
+   width: 500px;
+   height: 400px;
+}
+.stupid{
+}
+.new{
+    flex-wrap: nowrap;
+}
+h3{
+    letter-spacing: 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: 20px;
+    padding: 0;
+    float: left;
+}
+.title h3{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    position: relative;
+    text-decoration: underline white;
+    text-underline-position: under;
+}
+.title{
+  padding-bottom: 10px;
+}
+form .input-box{
+    width: 90%;
+    margin-top: 20px;
+}
+
+form .input-box input{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.014);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+}
+form .input-box input[type="submit"]{
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    color: #fcb69f;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.link-text{
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0;
+}
